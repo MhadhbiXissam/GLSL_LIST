@@ -49,3 +49,27 @@ if __name__ == '__main__':
 	print(glslList(direction,"direction").render())
 
 ```
+
+# Code output : 
+```c
+float GET_amplitude(int index){ 
+if (index == 0){ return float(0.5) ; }
+if (index == 1){ return float(0.25) ; }
+if (index == 2){ return float(0.16666666666666666) ; }
+if (index == 3){ return float(0.125) ; } }
+float GET_wavelength(int index){ 
+if (index == 0){ return float(25.132741228718345) ; }
+if (index == 1){ return float(12.566370614359172) ; }
+if (index == 2){ return float(8.377580409572781) ; }
+if (index == 3){ return float(6.283185307179586) ; } }
+float GET_speed(int index){ 
+if (index == 0){ return float(1.0) ; }
+if (index == 1){ return float(3.0) ; }
+if (index == 2){ return float(5.0) ; }
+if (index == 3){ return float(7.0) ; } }
+vec2 GET_direction(int index){ 
+if (index == 0){ return vec2(vec2(-0.48175367410171505,-0.8763066800438637)) ; }
+if (index == 1){ return vec2(vec2(-0.8443279255020151,-0.5358267949789967)) ; }
+if (index == 2){ return vec2(vec2(0.9685831611286312,-0.24868988716485463)) ; }
+if (index == 3){ return vec2(vec2(-0.39714789063478045,-0.9177546256839813)) ; } }
+```
